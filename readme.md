@@ -43,6 +43,7 @@ python manage.py runserver
 ## url pattern
      `http://127.0.0.1:8000/api/taskmanager/start_scraping/` this url pattern is use to get the job id, the payload will be like this `["bitcoin", "ethereum", "litecoin"]`
      `http://127.0.0.1:8000/api/taskmanager/scraping_status/<uuid:job_id>/` this url pattern is for the json response of the currency. the response will be like this 
+## Response     
 ```
     {
     "id": "33cd8bfc-cd5d-4ae6-b451-1c8873c21924",
